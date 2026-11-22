@@ -27,10 +27,20 @@ sphinx:
     persistence_sidebar_ticks: true
 ```
 
+## Click the mark in the sidebar
+
+With `persistence_sidebar_clickable`, every page in the left sidebar gets a small circle. The reader clicks the circle to mark that page as done, and clicks it again to undo. The reader does not have to scroll to the end of the page, and the book does not need the checkbox at the end of each page.
+
+```yaml
+sphinx:
+  config:
+    persistence_sidebar_clickable: true
+```
+
+When the checkbox at the end of the page is also on, the two stay in step: ticking one also ticks the other.
+
 ## Try it
 
-1. Scroll to the end of this page and tick "Mark this section as complete".
-2. Go to another page, for example [Learning activities](activities.md).
-3. Look at the left sidebar. "Page checkbox and sidebar ticks" now has a tick.
-
-The tick does not appear next to the page you are on. It appears as soon as you open another page. This is a known issue.
+1. Scroll to the end of this page and tick "Mark this section as complete". The circle next to "Page checkbox and sidebar ticks" in the left sidebar turns into a tick.
+2. Click the circle next to another page in the sidebar, for example "Form fields". It turns into a tick, and you stay on this page.
+3. Click the tick again to undo it.

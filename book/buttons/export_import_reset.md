@@ -1,6 +1,8 @@
 # Export, Import and Reset
 
-The extension adds three buttons to the page header, next to the other TeachBooks buttons. They are on by default.
+The extension adds Export, Import and Reset to the page header, next to the other TeachBooks buttons. They are on by default.
+
+This book shows them in one menu: click the disk icon in the page header to open it. Each action has a name in the menu, so readers can see what it does. To use the menu in your own book, add `persistence_toolbar_menu: true`. Without it, the header shows three separate icon buttons.
 
 ## Export and Import
 

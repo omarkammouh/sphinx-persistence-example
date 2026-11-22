@@ -12,7 +12,7 @@
     'use strict';
 
     var KEY = 'persistence-demo-switches';
-    var NAMES = ['pageCheckbox', 'sidebarTicks', 'activityCheckboxes', 'activityReset', 'partHeadingPages'];
+    var NAMES = ['toolbarMenu', 'pageCheckbox', 'sidebarTicks', 'sidebarClickable', 'activityCheckboxes', 'activityReset', 'partHeadingPages'];
 
     var cfg = window.sphinxPersistence = window.sphinxPersistence || {};
 
