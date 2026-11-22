@@ -25,7 +25,7 @@ Try it on this page or on the [Form fields](../saving/form_fields.md) page. Choo
 
 ## Turn the buttons off
 
-To hide all three buttons, add this line to your `_config.yml`:
+To hide Export, Import and Reset, as buttons or as a menu, add this line to your `_config.yml`:
 
 ```yaml
 sphinx:
