@@ -1,13 +1,23 @@
 # Limitations
 
-The extension works in the reader's browser and keeps no copy anywhere else. This page lists what it does not save and when it can go wrong.
+The extension works in the reader's browser and keeps no copy anywhere else. This page lists what it saves, what it does not save and when it can go wrong.
 
-## What does not get saved
+## What is saved and what is not
 
-- The output of code cells is not saved. Only the code is saved, and running it again brings the output back.
-- Anything inside an iframe from another website, such as YouTube or H5P, is not saved. Browsers do not let a page look inside those.
-- Canvas animations and games are not saved. They start again on purpose.
-- The extension does not remember which tab of a tab set was open.
+Each item below was tested in a TeachBooks book: the item was filled in or clicked, and then the page was opened again in a new visit (version 0.5.0, Chrome, November 2026).
+
+| Saved and restored | Not saved |
+|---|---|
+| Text boxes and text areas | Text typed into an element that is not a form field (`contenteditable`) |
+| Checkboxes and radio buttons | Anything inside an iframe, such as YouTube, H5P or Grasple |
+| Dropdown lists, also with several choices | Drag-and-drop moves in an HTML activity |
+| Sliders, number, date and colour fields | Canvas animations and games, on purpose: they start again |
+| Code edited in live code cells | The output of code cells: run the cell again to see it |
+| TeachBooks-Questions answers: single choice, several choices, text and math answers | The feedback after a quiz answer: press Check again |
+| HTML activities that the reader works with by clicking, also when the activity shuffles its items on each load | Which tab of a tab set is open, and whether a dropdown (`{dropdown}`) is open |
+| "Mark as done" checkboxes, the page checkbox and the sidebar circles | |
+
+An HTML activity is saved through the reader's clicks, so an activity that the reader works with by dragging or typing into elements that are not form fields loses that work. Form fields inside an activity are saved like any other form field. Interactive widgets in live code (ipywidgets) were not tested.
 
 ## Work stays in one browser
 
