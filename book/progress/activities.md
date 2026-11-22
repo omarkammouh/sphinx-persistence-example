@@ -1,6 +1,6 @@
 # Learning activities
 
-A learning activity is an exercise on a page that a reader works through. The extension can add two controls after each learning activity. A "Mark as done" checkbox lets the reader tick off the activity. A "Reset" button clears the reader's saved answers in that one activity, so they can start it again.
+A learning activity is an exercise on a page that a reader works through. The extension can add two controls after each learning activity. A "Mark as done" checkbox <span class="pe-pill"><span class="pe-box"></span>Mark as done</span> lets the reader tick off the activity. A "Reset" button <span class="pe-pill pe-pill--reset">↺ Reset</span> clears the reader's saved answers in that one activity, so they can start it again.
 
 Both controls are off by default. This book turns them on:
 

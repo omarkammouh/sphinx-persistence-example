@@ -18,7 +18,7 @@ Saved work stays in the browser and on the computer where the reader made it. An
 A browser keeps saved work per web address, such as `https://oit.tudelft.nl`. When several books are hosted under the same address, they share one storage space, and the extension cannot yet tell them apart. This has three effects.
 
 - Export puts the saved work of all books on that address into one file.
-- "Reset book" deletes the saved work of all books on that address. It also deletes saved H5P answers on that address.
+- Reset with "Entire Book" deletes the saved work of all books on that address. It also deletes saved H5P answers on that address.
 - All books on the address share the browser's limit of about 5 MB.
 
 Pages do not mix, because the extension saves each page under its own path. A book with its own web address, such as this book on GitHub Pages, is not affected. A fix that keeps each book's saved work apart is planned.

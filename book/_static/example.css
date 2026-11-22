@@ -65,3 +65,19 @@
   border-color: var(--pst-color-primary);
   outline: 2px solid var(--pst-color-primary);
 }
+
+/* Small pictures of the extension's controls, used in the explanations. */
+.pe-icon { display: inline-flex; align-items: center; justify-content: center; min-width: 1.6rem;
+  height: 1.5rem; padding: 0 0.3rem; border: 1px solid var(--pst-color-border); border-radius: 0.3rem;
+  background: var(--pst-color-surface); color: var(--pst-color-text-base); font-size: 0.85rem;
+  vertical-align: -0.2rem; }
+.pe-circle { display: inline-flex; align-items: center; justify-content: center; width: 1.05rem;
+  height: 1.05rem; border: 1.5px solid var(--pst-color-border); border-radius: 50%; font-size: 0.7rem;
+  line-height: 1; font-weight: 700; vertical-align: -0.15rem; }
+.pe-circle--done { border-color: var(--pst-color-primary); background: var(--pst-color-primary);
+  color: var(--pst-color-background); }
+.pe-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.1rem 0.6rem;
+  border: 1px solid var(--pst-color-border); border-radius: 999px; background: var(--pst-color-surface);
+  font-size: 0.85rem; line-height: 1.4; white-space: nowrap; }
+.pe-pill--reset { color: var(--pst-color-text-muted); }
+.pe-box { width: 0.85rem; height: 0.85rem; border: 1.5px solid var(--pst-color-text-muted); border-radius: 0.15rem; }

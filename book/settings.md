@@ -12,7 +12,7 @@ This book is built with every progress control turned on. With the switches belo
   <p><label><input type="checkbox" data-demo="toolbarMenu"> Export, Import and Reset in one menu in the page header (<code>persistence_toolbar_menu</code>)</label></p>
   <p><label><input type="checkbox" data-demo="pageCheckbox"> "Mark this section as complete" at the end of every page (<code>persistence_page_checkbox</code>)</label></p>
   <p><label><input type="checkbox" data-demo="sidebarTicks"> Ticks in the left sidebar (<code>persistence_sidebar_ticks</code>)</label></p>
-  <p><label><input type="checkbox" data-demo="sidebarClickable"> A mark in the left sidebar that readers click to mark a page as done (<code>persistence_sidebar_clickable</code>)</label></p>
+  <p><label><input type="checkbox" data-demo="sidebarClickable"> Circles in the left sidebar that readers click to mark a page as done (<code>persistence_sidebar_clickable</code>)</label></p>
   <p><label><input type="checkbox" data-demo="activityCheckboxes"> "Mark as done" after every learning activity (<code>persistence_activity_checkboxes</code>)</label></p>
   <p><label><input type="checkbox" data-demo="activityReset"> "Reset" after every learning activity (<code>persistence_activity_reset</code>)</label></p>
   <p><label><input type="checkbox" data-demo="partHeadingPages"> Checkboxes on the parts of a long page (<code>persistence_part_heading_pages</code>)</label></p>
@@ -52,7 +52,7 @@ This book is built with every progress control turned on. With the switches belo
 
 ## All settings
 
-The table lists every setting. The first five are on by default, and the progress controls are off by default.
+The table lists every setting. Saving and the three header buttons are on by default. The menu and the progress controls are off by default.
 
 | Setting | Default | What it does |
 |---|---|---|
@@ -63,8 +63,8 @@ The table lists every setting. The first five are on by default, and the progres
 | `persistence_toolbar` | `true` | Shows the Export, Import and Reset buttons in the page header. |
 | `persistence_toolbar_menu` | `false` | Puts Export, Import and Reset in one menu behind a single button in the page header. |
 | `persistence_page_checkbox` | `false` | Adds a "Mark this section as complete" checkbox at the end of every page. |
-| `persistence_sidebar_ticks` | `false` | Shows a tick in the sidebar next to completed pages. Needs `persistence_page_checkbox`. |
-| `persistence_sidebar_clickable` | `false` | Adds a mark next to every page in the sidebar. The reader clicks it to mark the page as done. |
+| `persistence_sidebar_ticks` | `false` | Shows a tick in the sidebar next to completed pages. Needs `persistence_page_checkbox` or `persistence_sidebar_clickable`. |
+| `persistence_sidebar_clickable` | `false` | Adds a circle next to every page in the sidebar. The reader clicks it to mark the page as done. |
 | `persistence_activity_checkboxes` | `false` | Adds a "Mark as done" checkbox after every learning activity. |
 | `persistence_activity_reset` | `false` | Adds a "Reset" button after every learning activity written in HTML. |
 | `persistence_part_heading_pages` | `""` | Adds a "Mark as done" checkbox after numbered part headings on pages whose address matches this pattern. |

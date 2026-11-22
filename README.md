@@ -9,9 +9,10 @@ Read the book online: <https://omarkammouh.github.io/sphinx-persistence-example/
 Each page shows one feature of the extension and tells the reader what to try.
 
 - Saving form fields, live code, quiz answers and hand-made HTML activities.
-- The Export, Import and Reset buttons in the page header.
-- The progress controls: a checkbox at the end of each page, ticks in the sidebar, "Mark as done" and "Reset" after each learning activity, and checkboxes on the parts of a long page.
-- Every setting, with switches on the Settings page that let a reader turn the progress controls on and off in their own browser.
+- Export, Import and Reset in the page header, shown as one menu behind a disk icon.
+- The progress controls: a checkbox at the end of each page, circles in the sidebar that readers click to mark a page as done, "Mark as done" and "Reset" after each learning activity, and checkboxes on the parts of a long page.
+- A small picture of each button and checkbox next to the text that explains it.
+- Every setting, with switches on the Settings page that let a reader turn the menu and the progress controls on and off in their own browser.
 - The limitations of the extension.
 
 To add the extension to your own book, follow the [README of the extension](https://github.com/omarkammouh/sphinx-persistence#installation).

@@ -14,7 +14,7 @@ The pattern is a JavaScript regular expression. For example, `"chapter_3|chapter
 
 ## 1.1 Set up the model
 
-In this part you would create the model and its agents. Scroll down to the end of this part. You see a "Mark as done" checkbox before the next heading starts.
+In this part you would create the model and its agents. Scroll down to the end of this part. You see a "Mark as done" checkbox <span class="pe-pill"><span class="pe-box"></span>Mark as done</span> before the next heading starts.
 
 ## 1.2 Run the model
 
