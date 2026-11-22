@@ -17,6 +17,7 @@ sphinx:
     - sphinx_persistence                             # The extension this book shows (https://github.com/omarkammouh/sphinx-persistence)
   local_extensions:
     persistence_demo: _ext/                          # Lets readers of this book try the settings on the Settings page; not needed in your own book
+    dedupe_inline_scripts: _ext/                     # Removes repeated inline live-code scripts (a TeachBooks issue, not part of sphinx-persistence)
   config:
     language: en
     html_js_files:
@@ -50,7 +51,7 @@ sphinx:
       - dollarmath
       - html_image
     # --- sphinx-persistence (https://github.com/omarkammouh/sphinx-persistence) ---
-    # Saving and the Export, Import and Reset buttons are on by default, so they need no line here.
+    # Saving and the Export, Import and Reset menu are on by default, so they need no line here.
     # The progress controls are off by default. This book turns all of them on to show them.
     persistence_page_checkbox: true                  # "Mark this section as complete" at the end of every page
     persistence_sidebar_ticks: true                  # Tick in the left sidebar next to completed pages

@@ -18,7 +18,7 @@ sphinx:
 
 When a reader ticks the checkbox at the end of a page, a tick <span class="pe-circle pe-circle--done" title="Done">✓</span> appears next to that page, at the right edge of the left sidebar. The reader can then see at a glance which pages they have finished.
 
-The ticks come from the page checkbox, so turn on both settings:
+The ticks come from the page checkbox, so turn on both settings, or use the clickable circles below:
 
 ```yaml
 sphinx:

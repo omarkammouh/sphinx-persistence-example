@@ -22,6 +22,7 @@ To add the extension to your own book, follow the [README of the extension](http
 - `book/` holds the pages of the book, its `_config.yml` and its `_toc.yml`.
 - `book/_config.yml` shows the settings of the extension under `sphinx:` and `config:`, in the lines marked "sphinx-persistence".
 - `book/_ext/persistence_demo.py` and `book/_static/persistence-demo.js` make the switches on the Settings page work. They are only for this example book, and your own book does not need them.
+- `book/_ext/dedupe_inline_scripts.py` removes a repeated live-code script that the TeachBooks stack adds to each page, so the browser console shows no errors. It is not part of the extension, and you can copy it into your own book if you see the same errors.
 - `requirements.txt` lists the packages that the build installs.
 - `.github/workflows/call-deploy-book.yml` builds the book and publishes it on GitHub Pages after each push. It uses the [TeachBooks deploy-book workflow](https://github.com/TeachBooks/deploy-book-workflow).
 
