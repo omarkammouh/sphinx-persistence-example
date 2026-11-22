@@ -2,7 +2,7 @@
 
 This book shows what the [sphinx-persistence](https://github.com/omarkammouh/sphinx-persistence) extension does in a real TeachBooks book. The extension saves a reader's work in their own browser, so their answers, code and progress are still there when they come back.
 
-Read the book online: <https://omarkammouh.github.io/sphinx-persistence-example/>
+Read the book online: <https://omarkammouh.github.io/sphinx-persistence-example/main/>
 
 ## What the book shows
 

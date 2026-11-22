@@ -25,7 +25,7 @@ sphinx:
       use_thebe_lite: true                           # Required for live code (https://teachbooks.io/manual/features/live_code.html)
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_favicon: "figures/TB_favicon.ico"
-    html_baseurl: "https://omarkammouh.github.io/sphinx-persistence-example/"
+    html_baseurl: "https://omarkammouh.github.io/sphinx-persistence-example/main/"
     html_static_path: ["figures", "_static"]
     html_css_files:
     - example.css                                    # Styles for the demo fields and activities in this book
