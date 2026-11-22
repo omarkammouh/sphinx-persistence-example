@@ -1,0 +1,21 @@
+format: jb-book
+root: intro.md
+
+parts:
+  - caption: Saving the reader's work
+    chapters:
+    - file: saving/form_fields.md
+    - file: saving/live_code.ipynb
+    - file: saving/quiz_answers.md
+    - file: saving/html_activities.md
+  - caption: Buttons and progress
+    chapters:
+    - file: buttons/export_import_reset.md
+    - file: progress/page_and_sidebar.md
+    - file: progress/activities.md
+    - file: progress/long_page_walkthrough.md
+  - caption: Settings and limits
+    chapters:
+    - file: settings.md
+    - file: limitations.md
+    - file: credits.md

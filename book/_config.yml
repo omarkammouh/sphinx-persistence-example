@@ -1,0 +1,60 @@
+# Settings of the sphinx-persistence example book.
+# The settings of the extension itself are under sphinx: config:, marked "sphinx-persistence".
+
+title: "sphinx-persistence example"
+author: Omar Kammouh, built with <a href="https://teachbooks.io">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0</a>
+logo: figures/TeachBooks_logo.svg
+
+execute:
+  execute_notebooks: "off"                           # Code runs in the reader's browser, not during the build
+
+only_build_toc_files: true
+
+sphinx:
+  extra_extensions:
+    - jupyterbook_patches                            # TeachBooks fixes for Jupyter Book, such as live-code scripts that load twice (https://github.com/TeachBooks/JupyterBook-Patches)
+    - teachbooks_questions                           # Quiz questions (https://github.com/TeachBooks/TeachBooks-Questions)
+    - sphinx_persistence                             # The extension this book shows (https://github.com/omarkammouh/sphinx-persistence)
+  local_extensions:
+    persistence_demo: _ext/                          # Lets readers of this book try the settings on the Settings page; not needed in your own book
+  config:
+    language: en
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js # Required for live code
+    thebe_config:
+      use_thebe_lite: true                           # Required for live code (https://teachbooks.io/manual/features/live_code.html)
+      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+    html_favicon: "figures/TB_favicon.ico"
+    html_baseurl: "https://omarkammouh.github.io/sphinx-persistence-example/"
+    html_static_path: ["figures", "_static"]
+    html_css_files:
+    - example.css                                    # Styles for the demo fields and activities in this book
+    html_show_copyright: false
+    html_theme_options:
+      home_page_in_toc: true
+      logo:
+        text: sphinx-persistence example
+        image_light: TeachBooks_logo.svg
+        image_dark: TeachBooks_logo_inverted.svg
+      repository_url: "https://github.com/omarkammouh/sphinx-persistence-example"
+      path_to_docs: "book"
+      repository_branch: "main"
+      use_repository_button: true
+      use_issues_button: true
+      use_edit_page_button: false
+      launch_buttons:
+        thebe: true                                  # Required for live code
+    myst_enable_extensions:
+      - colon_fence
+      - deflist
+      - dollarmath
+      - html_image
+    # --- sphinx-persistence (https://github.com/omarkammouh/sphinx-persistence) ---
+    # Saving and the Export, Import and Reset buttons are on by default, so they need no line here.
+    # The progress controls are off by default. This book turns all of them on to show them.
+    persistence_page_checkbox: true                  # "Mark this section as complete" at the end of every page
+    persistence_sidebar_ticks: true                  # Tick in the left sidebar next to completed pages
+    persistence_activity_checkboxes: true            # "Mark as done" after every learning activity
+    persistence_activity_reset: true                 # "Reset" button after every learning activity written in HTML
+    persistence_part_heading_pages: "long_page"      # Pages whose address contains "long_page" get a checkbox per numbered part
+    persistence_book_id: "sphinx-persistence-example" # Name stored in exported files, so an import from another book shows a warning

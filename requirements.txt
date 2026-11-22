@@ -1,0 +1,10 @@
+# Packages needed to build this book. The deploy workflow installs them.
+teachbooks                     # Builds the book (depends on Jupyter Book 1)
+jupyterbook-patches==v1.15.0   # TeachBooks fixes for Jupyter Book, the version used by TeachBooks-Favourites
+teachbooks-questions==0.4.1    # Quiz questions, used on the "Quiz answers" page
+
+# Live code in the browser, the TeachBooks version used by TeachBooks-Favourites
+sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe@1f3a809
+
+# The extension this book shows
+sphinx-persistence @ git+https://github.com/omarkammouh/sphinx-persistence
