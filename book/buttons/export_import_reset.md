@@ -1,8 +1,6 @@
 # Export, Import and Reset
 
-The extension adds Export <span class="pe-icon" title="Export"><i class="fa-solid fa-file-export"></i></span>, Import <span class="pe-icon" title="Import"><i class="fa-solid fa-file-import"></i></span> and Reset <span class="pe-icon" title="Reset"><i class="fa-solid fa-trash-can"></i></span> to the page header, next to the other TeachBooks buttons. They are on by default.
-
-This book shows them in one menu: click the disk icon <span class="pe-icon" title="Progress menu"><i class="fa-solid fa-floppy-disk"></i></span> in the page header to open it. Each action has a name in the menu, so readers can see what it does. To use the menu in your own book, add `persistence_toolbar_menu: true`. Without it, the header shows three separate icon buttons.
+The extension adds a disk icon <span class="pe-icon" title="Progress menu"><i class="fa-solid fa-floppy-disk"></i></span> to the page header, next to the other TeachBooks buttons. Click it, or move the mouse over it, to open a menu with three actions: Export <span class="pe-icon" title="Export"><i class="fa-solid fa-file-export"></i></span>, Import <span class="pe-icon" title="Import"><i class="fa-solid fa-file-import"></i></span> and Reset <span class="pe-icon" title="Reset"><i class="fa-solid fa-trash-can"></i></span>. Each action has its name in the menu, so readers can see what it does. The menu is on by default.
 
 ## Export and Import
 
@@ -23,9 +21,9 @@ Reset <span class="pe-icon" title="Reset"><i class="fa-solid fa-trash-can"></i><
 
 Try it on this page or on the [Form fields](../saving/form_fields.md) page. Choose "Current Page Only", and the fields on that page are empty again. Your work on other pages stays.
 
-## Turn the buttons off
+## Turn the menu off
 
-To hide Export, Import and Reset, as buttons or as a menu, add this line to your `_config.yml`:
+To hide the menu with Export, Import and Reset, add this line to your `_config.yml`:
 
 ```yaml
 sphinx:
@@ -33,4 +31,4 @@ sphinx:
     persistence_toolbar: false
 ```
 
-Saving still works without the buttons. Readers then have no way to move or clear their work, so keep the buttons unless you have a reason to hide them.
+Saving still works without the menu. Readers then have no way to move or clear their work, so keep the menu unless you have a reason to hide it.

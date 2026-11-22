@@ -9,7 +9,6 @@ This book is built with every progress control turned on. With the switches belo
 ```{raw} html
 <div class="persistence-demo-box" data-persistence="off">
   <p><strong>Progress controls in this browser</strong></p>
-  <p><label><input type="checkbox" data-demo="toolbarMenu"> Export, Import and Reset in one menu in the page header (<code>persistence_toolbar_menu</code>)</label></p>
   <p><label><input type="checkbox" data-demo="pageCheckbox"> "Mark this section as complete" at the end of every page (<code>persistence_page_checkbox</code>)</label></p>
   <p><label><input type="checkbox" data-demo="sidebarTicks"> Ticks in the left sidebar (<code>persistence_sidebar_ticks</code>)</label></p>
   <p><label><input type="checkbox" data-demo="sidebarClickable"> Circles in the left sidebar that readers click to mark a page as done (<code>persistence_sidebar_clickable</code>)</label></p>
@@ -52,7 +51,7 @@ This book is built with every progress control turned on. With the switches belo
 
 ## All settings
 
-The table lists every setting. Saving and the three header buttons are on by default. The menu and the progress controls are off by default.
+The table lists every setting. Saving and the menu with Export, Import and Reset are on by default. The progress controls are off by default.
 
 | Setting | Default | What it does |
 |---|---|---|
@@ -60,8 +59,7 @@ The table lists every setting. Saving and the three header buttons are on by def
 | `persistence_questions` | `true` | Saves TeachBooks-Questions answers. |
 | `persistence_activities` | `true` | Saves HTML activities. |
 | `persistence_activity_exclude_ids` | `[]` | Lists the ids of HTML activities that should never be saved, such as timed games. |
-| `persistence_toolbar` | `true` | Shows the Export, Import and Reset buttons in the page header. |
-| `persistence_toolbar_menu` | `false` | Puts Export, Import and Reset in one menu behind a single button in the page header. |
+| `persistence_toolbar` | `true` | Shows a menu with Export, Import and Reset behind a disk icon in the page header. |
 | `persistence_page_checkbox` | `false` | Adds a "Mark this section as complete" checkbox at the end of every page. |
 | `persistence_sidebar_ticks` | `false` | Shows a tick in the sidebar next to completed pages. Needs `persistence_page_checkbox` or `persistence_sidebar_clickable`. |
 | `persistence_sidebar_clickable` | `false` | Adds a circle next to every page in the sidebar. The reader clicks it to mark the page as done. |
@@ -81,7 +79,6 @@ sphinx:
   extra_extensions:
     - sphinx_persistence
   config:
-    persistence_toolbar_menu: true
     persistence_page_checkbox: true
     persistence_sidebar_ticks: true
     persistence_sidebar_clickable: true

@@ -12,9 +12,9 @@ Each page shows one feature and tells you what to try.
 - [Live code](saving/live_code.ipynb) shows how edited code in a code cell is saved.
 - [Quiz answers](saving/quiz_answers.md) shows how TeachBooks-Questions answers are saved.
 - [HTML activities](saving/html_activities.md) shows how a hand-made HTML exercise is saved.
-- [Export, Import and Reset](buttons/export_import_reset.md) shows Export, Import and Reset, which this book puts in one menu in the page header.
+- [Export, Import and Reset](buttons/export_import_reset.md) shows the menu with Export, Import and Reset in the page header.
 - [Page checkbox and sidebar ticks](progress/page_and_sidebar.md), [Learning activities](progress/activities.md) and [A long page with parts](progress/long_page_walkthrough.md) show the progress controls.
-- [Settings](settings.md) lists every setting. You can also switch the menu and the progress controls on and off there to see what each one does.
+- [Settings](settings.md) lists every setting. You can also switch the progress controls on and off there to see what each one does.
 - [Limitations](limitations.md) explains what the extension does not save and when it can go wrong.
 
 ## How to add the extension to your book
@@ -33,7 +33,7 @@ sphinx:
     - sphinx_persistence
 ```
 
-With only these two lines, the extension saves the reader's work and adds Export, Import and Reset to the page header as three buttons. The menu and the progress controls you see in this book are off by default. The [Settings](settings.md) page shows how to turn them on.
+With only these two lines, the extension saves the reader's work and adds a menu with Export, Import and Reset to the page header. The progress controls you see in this book are off by default. The [Settings](settings.md) page shows how to turn them on.
 
 ## Where your work is kept
 

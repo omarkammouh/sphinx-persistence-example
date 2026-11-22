@@ -52,7 +52,6 @@ sphinx:
     # --- sphinx-persistence (https://github.com/omarkammouh/sphinx-persistence) ---
     # Saving and the Export, Import and Reset buttons are on by default, so they need no line here.
     # The progress controls are off by default. This book turns all of them on to show them.
-    persistence_toolbar_menu: true                   # Export, Import and Reset in one menu behind a single header button
     persistence_page_checkbox: true                  # "Mark this section as complete" at the end of every page
     persistence_sidebar_ticks: true                  # Tick in the left sidebar next to completed pages
     persistence_sidebar_clickable: true              # Readers click the mark next to a page in the sidebar to mark it as done

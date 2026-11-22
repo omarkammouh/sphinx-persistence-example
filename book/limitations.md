@@ -30,4 +30,4 @@ Pages do not mix, because the extension saves each page under its own path. A bo
 
 ## Theme
 
-The extension is built for books that use the TeachBooks or sphinx-book-theme page layout. The Export, Import and Reset buttons go into that theme's page header. With another theme, the buttons float in the bottom-right corner of the page, and the progress controls do not appear.
+The extension is built for books that use the TeachBooks or sphinx-book-theme page layout. The menu with Export, Import and Reset goes into that theme's page header. With another theme, the disk icon floats in the bottom-right corner of the page, and the progress controls do not appear.
