@@ -8,4 +8,4 @@ sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe@1f3a809
 
 # The extension this book shows, pinned to a commit so each deploy installs that exact version.
 # Change the commit id after each change to the extension.
-sphinx-persistence @ git+https://github.com/omarkammouh/sphinx-persistence@5d5be27
+sphinx-persistence @ git+https://github.com/omarkammouh/sphinx-persistence@eddf29b

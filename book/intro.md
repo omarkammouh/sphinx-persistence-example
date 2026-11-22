@@ -13,7 +13,7 @@ Each page shows one feature and tells you what to try.
 - [Quiz answers](saving/quiz_answers.md) shows how TeachBooks-Questions answers are saved.
 - [HTML activities](saving/html_activities.md) shows how a hand-made HTML exercise is saved.
 - [Export, Import and Reset](buttons/export_import_reset.md) shows the menu with Export, Import and Reset in the page header.
-- [Page checkbox and sidebar ticks](progress/page_and_sidebar.md), [Learning activities](progress/activities.md) and [A long page with parts](progress/long_page_walkthrough.md) show the progress controls.
+- [Page checkbox and sidebar circles](progress/page_and_sidebar.md), [Learning activities](progress/activities.md) and [A long page with parts](progress/long_page_walkthrough.md) show the progress controls.
 - [Settings](settings.md) lists every setting. You can also switch the progress controls on and off there to see what each one does.
 - [Limitations](limitations.md) explains what the extension does not save and when it can go wrong.
 
